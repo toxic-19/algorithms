@@ -1,7 +1,4 @@
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val;
-  this.next = next === undefined ? null : next;
-}
+// 迭代法：
 /**
  * @param {ListNode} head
  * @return {ListNode}
